@@ -54,6 +54,10 @@ GM_BrowserUI.chromeLoad = function(e) {
   if (!this.toolsMenu) {
     this.toolsMenu = document.getElementById("taskPopup");
   }
+  if (!this.sidebar) {
+    this.sidebar = document.getElementById("sidebar-box");
+  }
+
 
   // songbird compat
   if (!this.appContent && this.tabBrowser) {
